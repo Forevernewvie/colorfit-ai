@@ -1,0 +1,14 @@
+description: "Antigravity Multi-Agent Workflow Evaluation"
+
+providers:
+  - id: "exec:agy run -y"
+
+prompts:
+  - "이 코드를 리팩토링하고 개선점이나 문제점을 분석해줘: {{code_snippet}}"
+
+tests:
+  - vars:
+      code_snippet: "class TestManager { static let shared = TestManager() }"
+    assert:
+      - type: icontains
+        value: "class"

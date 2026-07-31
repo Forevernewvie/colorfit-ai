@@ -1,0 +1,35 @@
+{
+    "name": "ColorFit AI - 퍼스널 컬러 진단",
+    "short_name": "ColorFit AI",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#0B0F1A",
+    "theme_color": "#0B0F1A",
+    "description": "사진 한 장으로 진단하는 AI 퍼스널 컬러 & 톤 맞춤 서비스",
+    "orientation": "portrait-primary",
+    "prefer_related_applications": false,
+    "icons": [
+        {
+            "src": "icons/Icon-192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "icons/Icon-512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        },
+        {
+            "src": "icons/Icon-maskable-192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "maskable"
+        },
+        {
+            "src": "icons/Icon-maskable-512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "maskable"
+        }
+    ]
+}
